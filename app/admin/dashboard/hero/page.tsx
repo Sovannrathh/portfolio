@@ -13,7 +13,7 @@ interface HeroData {
 export default function HeroAdmin() {
   const [data, setData] = useState<HeroData>({
     greeting: "Hey, I'm",
-    name: "Ayush",
+    name: "Kim Sovannrath",
     tagline: "",
     splineUrl: "",
   });

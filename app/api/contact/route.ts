@@ -41,7 +41,7 @@ export async function POST(request: Request) {
 
     await sgMail.send({
       to: toEmail,
-      from: { email: toEmail, name: `Ayush Portfolio - ${fromName}` },
+      from: { email: toEmail, name: `Kim Sovannrath Portfolio - ${fromName}` },
       replyTo: { email, name },
       subject: `${name} — via portfolio`,
       categories: ["portfolio-contact"],

@@ -13,50 +13,21 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "CuraTube ",
-    subtitle: "A fully-featured video streaming platform",
+    title: "Packing Management System",
+    subtitle: "Admin dashboard analytics — Mentor Project",
     description:
-      "A full-stack video streaming platform that supports a handful of cool features similar to any other video streaming application out there.",
-    image: "https://ik.imagekit.io/lmpthl5suv/curatube-dummy.png",
-    githubUrl: "https://github.com/ayyush08/CuraTube",
-    liveUrl: "https://curatube.vercel.app",
-    tags: [
-      "MERN",
-      "TanStack Query",
-      "TanStack Router",
-      "Cloudinary",
-      "MongoDB",
-      "Signed uploads",
-    ],
-    accentColor: "#FF4040"
+      "A Laravel-based admin dashboard with an analytics landing page, authentication, dynamic charts, and API-driven ticket and user management.",
+    githubUrl: "#", // TODO: add repo link
+    tags: ["PHP", "Laravel", "Analytics", "REST API"],
+    accentColor: "#F472B6",
   },
   {
-    title: "CuraVibe",
-    subtitle: "a full-stack developer portfolio builder",
+    title: "To Do List",
+    subtitle: "Flutter mobile app — School Project",
     description:
-      "A browser-based IDE that brings a professional development environment with AI directly to your browser.",
-    image: "https://ik.imagekit.io/lmpthl5suv/curavibe-dummy.png",
-    githubUrl: "https://github.com/ayyush08/CuraVibe",
-    liveUrl: "https://curavibe.vercel.app",
-    tags: ["Next.js","NextAuth","Prisma", "MongoDB","MonacoEditor","AI","Github Integration"],
-    accentColor: "#3B82F6"
+      "A task management mobile app built with Flutter, supporting adding, editing, updating, and deleting tasks through an intuitive UI.",
+    githubUrl: "#", // TODO: add repo link
+    tags: ["Flutter", "Dart", "Mobile"],
+    accentColor: "#34D399",
   },
-  {
-    title: "Inkognito",
-    description:
-      "A web application that allows users to send messages anonymously.",
-    image: "https://ik.imagekit.io/lmpthl5suv/ink.jpg?updatedAt=1748963140186",
-    githubUrl: "https://github.com/ayyush08/Inkognito",
-    tags: ["Next.js", "NextAuth","MongoDB","Zod","Resend","Gemini API","Shadcn UI"],
-    accentColor: "#FF8C00"
-  },
-  {
-    title: "HarmoniQ",
-    subtitle: "AI sound Designer",
-    description: "A web application that provides an interface for users to generate sounds of their choice using a simple prompt and save them to their profile.",
-    image: "https://ik.imagekit.io/lmpthl5suv/harmoniq-dummy.png",
-    githubUrl: "https://github.com/ayyush08/HarmoniQ",
-    tags: ["Next.js", "MongoDB", "FastAPI", "Python","Gemini API","HuggingFace Models"],
-    accentColor: "#8B5CF6"
-  }
 ];

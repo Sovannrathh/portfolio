@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ayush Kumar Gupta | Full Stack Developer",
+  title: "Kim Sovannrath | Web Developer Intern",
   description:
-    "Portfolio of a full stack developer and a strong problem-solver with keen interest in coding and building stuff. Experienced in competitive programming and has a good grasp of data structures and algorithms. Skilled in JavaScript, TypeScript, React, Node.js, Next.js,etc. Passionate about learning new technologies and improving coding skills.",
+    "Portfolio of Kim Sovannrath, a web developer intern studying Software Engineering at CADT. Experienced with PHP/Laravel back ends and Flutter mobile apps, with a foundation in C/C++, HTML, and CSS.",
 };
 
 export default function RootLayout({

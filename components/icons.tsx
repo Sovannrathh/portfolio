@@ -836,4 +836,55 @@ export const Icons = {
       />
     </svg>
   ),
+  php: (props: IconProps) => (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>PHP</title>
+      <rect width="32" height="32" rx="6" fill="#777BB4" />
+      <text
+        x="16"
+        y="21"
+        textAnchor="middle"
+        fontSize="11"
+        fontWeight="700"
+        fontFamily="Arial, sans-serif"
+        fill="#fff"
+      >
+        PHP
+      </text>
+    </svg>
+  ),
+  laravel: (props: IconProps) => (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>Laravel</title>
+      <rect width="32" height="32" rx="6" fill="#FF2D20" />
+      <text
+        x="16"
+        y="22"
+        textAnchor="middle"
+        fontSize="16"
+        fontWeight="700"
+        fontFamily="Georgia, serif"
+        fill="#fff"
+      >
+        L
+      </text>
+    </svg>
+  ),
+  flutter: (props: IconProps) => (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>Flutter</title>
+      <rect width="32" height="32" rx="6" fill="#02569B" />
+      <text
+        x="16"
+        y="21"
+        textAnchor="middle"
+        fontSize="12"
+        fontWeight="700"
+        fontFamily="Arial, sans-serif"
+        fill="#fff"
+      >
+        Fl
+      </text>
+    </svg>
+  ),
 };

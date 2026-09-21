@@ -5,7 +5,6 @@ import Link from "next/link";
 import {
   UserIcon,
   WrenchIcon,
-  SwordsIcon,
   FolderOpenIcon,
   AwardIcon,
   BriefcaseIcon,
@@ -35,7 +34,6 @@ const DATA = {
     { href: "#hero", icon: ArrowUp, label: "To the top" },
     { href: "#about", icon: UserIcon, label: "About" },
     { href: "#skills", icon: WrenchIcon, label: "Skills" },
-    { href: "#competitive", icon: SwordsIcon, label: "Competitive Programming" },
     { href: "#projects", icon: FolderOpenIcon, label: "Projects" },
     { href: "#certifications", icon: AwardIcon, label: "Certifications" },
     { href: "#experience", icon: BriefcaseIcon, label: "Experience" },

@@ -40,7 +40,9 @@ export const skillIconMap: Record<string, IconRenderer> = {
   tanstack: Icons.tanstack,
   redux: Icons.redux,
   docker: Icons.docker,
-  
+  php: Icons.php,
+  laravel: Icons.laravel,
+  flutter: Icons.flutter,
 };
 
 /* ------------------------------------------------------------------ */

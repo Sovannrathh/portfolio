@@ -91,17 +91,13 @@ const fallbackCategories: SkillCategory[] = [
     gradientColor: "#F472B6",
     span: "col-span-1",
     skills: [
+      { name: "C / C++", icon: Icons.cpp },
       { name: "HTML", icon: Icons.html },
       { name: "CSS", icon: Icons.css },
-      { name: "JavaScript", icon: Icons.javascript },
-      { name: "TypeScript", icon: Icons.typescript },
-      { name: "C++", icon: Icons.cpp },
-      { name: "Java", icon: Icons.java },
-      { name: "Python", icon: Icons.python },
     ],
   },
   {
-    title: "Libraries & Frameworks",
+    title: "Frameworks",
     categoryIcon: Monitor,
     color: "#60A5FA",
     gradientFrom: "#60A5FA",
@@ -109,18 +105,13 @@ const fallbackCategories: SkillCategory[] = [
     gradientColor: "#60A5FA",
     span: "col-span-1",
     skills: [
-      { name: "React.js", icon: Icons.react },
-      { name: "Next.js", icon: Icons.nextjs },
-      { name: "Express.js", icon: Icons.express },
-      { name: "Node.js", icon: Icons.nodejs },
-      { name: "TailwindCSS", icon: Icons.tailwindcss },
-      { name: "Shadcn UI", icon: Icons.shadcn },
-      { name: "Redux", icon: Icons.redux },
-      { name: "TanStack Query", icon: Icons.tanstack },
+      { name: "PHP", icon: Icons.php },
+      { name: "Laravel", icon: Icons.laravel },
+      { name: "Flutter", icon: Icons.flutter },
     ],
   },
   {
-    title: "Databases & Other Tools",
+    title: "Tools",
     categoryIcon: Database,
     color: "#34D399",
     gradientFrom: "#34D399",
@@ -128,13 +119,9 @@ const fallbackCategories: SkillCategory[] = [
     gradientColor: "#34D399",
     span: "col-span-1",
     skills: [
-      { name: "MongoDB", icon: Icons.mongodb },
-      { name: "PostgreSQL", icon: Icons.postgresql },
-      { name: "Prisma", icon: Icons.prisma },
       { name: "Git", icon: Icons.git },
       { name: "GitHub", icon: Icons.github },
       { name: "Postman", icon: Icons.postman },
-      { name: "Docker", icon: Icons.docker },
     ],
   },
 ];
@@ -142,18 +129,18 @@ const fallbackCategories: SkillCategory[] = [
 const learningItems: LearningItem[] = [
   {
     icon: Layers,
-    title: "System Design",
-    description: "Scalability, distributed systems & architecture patterns",
+    title: "Software Engineering",
+    description: "Designing, maintaining, and developing software systems",
   },
   {
     icon: Smartphone,
     title: "Mobile Development",
-    description: "Building cross-platform mobile experiences",
+    description: "Building cross-platform apps with Flutter",
   },
   {
     icon: Bot,
-    title: "Agentic AI",
-    description: "Building intelligent agents that can perform complex tasks autonomously",
+    title: "Project Management",
+    description: "Applying critical thought and collaboration to team projects",
   },
 ];
 

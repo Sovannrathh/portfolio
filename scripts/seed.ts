@@ -93,85 +93,43 @@ const SkillCategory  = mongoose.models.SkillCategory  || mongoose.model("SkillCa
 
 const heroData = {
   greeting: "Hey, I'm",
-  name: "Ayush",
-  tagline: "Full-stack developer who turns ideas into fast, polished products\u00A0\u2014 one clean commit at a time.",
+  name: "Kim Sovannrath",
+  tagline: "Web developer intern who enjoys solving problems and learning new things through code\u00A0\u2014 from Laravel back ends to Flutter apps.",
   splineUrl: "https://prod.spline.design/AeryvEqWxr2qjINc/scene.splinecode",
 };
 
 const aboutData = {
   heading: "Who I am & What I offer",
   paragraphs: [
-    "I'm Ayush Kumar Gupta \u2014 a full-stack developer with a sharp eye for clean architecture and a deep love for solving hard problems. From crafting intuitive UIs to designing scalable backends, I build products that are fast, reliable, and a joy to use.",
-    "Competitive programmer at heart, builder by habit \u2014 I thrive at the intersection of performance, design, and developer experience.",
+    "I'm Kim Sovannrath \u2014 a curious and enthusiastic web developer intern who loves solving problems and learning new things through coding. I work well in teams where I can learn from others and share ideas, and I'm always ready for feedback that helps me improve.",
+    "Currently studying Computer Science with a specialization in Software Engineering at CADT, I'm aiming toward designing, maintaining, and developing software systems \u2014 with hands-on experience across Laravel back ends and Flutter mobile apps.",
   ],
 };
 
 const projectsData = [
   {
-    title: "CuraTube",
-    subtitle: "A fully-featured video streaming platform",
-    description: "A full-stack video streaming platform that supports a handful of cool features similar to any other video streaming application out there.",
-    image: "https://ik.imagekit.io/lmpthl5suv/curatube-dummy.png",
-    githubUrl: "https://github.com/ayyush08/CuraTube",
-    liveUrl: "https://curatube.vercel.app",
-    tags: ["MERN", "TanStack Query", "TanStack Router", "Cloudinary", "MongoDB", "Signed uploads"],
-    accentColor: "#FF4040",
+    title: "Packing Management System",
+    subtitle: "Admin dashboard analytics \u2014 Mentor Project",
+    description: "A Laravel-based admin dashboard with an analytics landing page, authentication, dynamic charts, and API-driven ticket and user management.",
+    githubUrl: "#",
+    tags: ["PHP", "Laravel", "Analytics", "REST API"],
+    accentColor: "#F472B6",
     order: 0,
   },
   {
-    title: "CuraVibe",
-    subtitle: "a full-stack developer portfolio builder",
-    description: "A browser-based IDE that brings a professional development environment with AI directly to your browser.",
-    image: "https://ik.imagekit.io/lmpthl5suv/curavibe-dummy.png",
-    githubUrl: "https://github.com/ayyush08/CuraVibe",
-    liveUrl: "https://curavibe.vercel.app",
-    tags: ["Next.js", "NextAuth", "Prisma", "MongoDB", "MonacoEditor", "AI", "Github Integration"],
-    accentColor: "#3B82F6",
-    order: 1,
-  },
-  {
-    title: "Inkognito",
-    description: "A web application that allows users to send messages anonymously.",
-    image: "https://ik.imagekit.io/lmpthl5suv/ink.jpg?updatedAt=1748963140186",
-    githubUrl: "https://github.com/ayyush08/Inkognito",
-    tags: ["Next.js", "NextAuth", "MongoDB", "Zod", "Resend", "Gemini API", "Shadcn UI"],
-    accentColor: "#FF8C00",
-    order: 2,
-  },
-  {
-    title: "HarmoniQ",
-    subtitle: "AI sound Designer",
-    description: "A web application that provides an interface for users to generate sounds of their choice using a simple prompt and save them to their profile.",
-    image: "https://ik.imagekit.io/lmpthl5suv/harmoniq-dummy.png",
-    githubUrl: "https://github.com/ayyush08/HarmoniQ",
-    tags: ["Next.js", "MongoDB", "FastAPI", "Python", "Gemini API", "HuggingFace Models"],
-    accentColor: "#8B5CF6",
-    order: 3,
-  },
-];
-
-const certificationsData = [
-  {
-    name: "Data Structures & Algorithms - Programming Pathshala",
-    image: "https://ik.imagekit.io/lmpthl5suv/dsacerti.png",
-    link: "https://drive.google.com/file/d/1un2PymsO93PIhpEJ282hbBf86b-CCnIG/view",
-    order: 0,
-  },
-  {
-    name: "PostMan API Fundamentals Student Expert",
-    image: "https://ik.imagekit.io/lmpthl5suv/posstmancerti.png",
-    link: "https://drive.google.com/file/d/13eaG2KiXAzNi9rNhWeJNjKnOZycAA4uP/view?usp=sharing",
+    title: "To Do List",
+    subtitle: "Flutter mobile app \u2014 School Project",
+    description: "A task management mobile app built with Flutter, supporting adding, editing, updating, and deleting tasks through an intuitive UI.",
+    githubUrl: "#",
+    tags: ["Flutter", "Dart", "Mobile"],
+    accentColor: "#34D399",
     order: 1,
   },
 ];
 
-const socialsData = [
-  { platform: "GitHub", url: "https://github.com/ayyush08", order: 0 },
-  { platform: "LinkedIn", url: "https://www.linkedin.com/in/ayush2908/", order: 1 },
-  { platform: "LeetCode", url: "https://leetcode.com/u/ayyush_08/", order: 2 },
-  { platform: "Codeforces", url: "https://codeforces.com/profile/ayushkumargupta2908", order: 3 },
-  { platform: "X", url: "https://x.com/Ayush29081", order: 4 },
-];
+const certificationsData: { name: string; image: string; link?: string; order: number }[] = [];
+
+const socialsData: { platform: string; url: string; order: number }[] = [];
 
 const skillCategoriesData = [
   {
@@ -181,72 +139,43 @@ const skillCategoriesData = [
     gradientFrom: "#F472B6",
     gradientTo: "#FBBF24",
     gradientColor: "#F472B6",
-    span: "col-span-2 lg:col-span-2",
+    span: "col-span-1",
     skills: [
-      { name: "TypeScript", iconKey: "typescript" },
-      { name: "Python", iconKey: "python" },
-      { name: "JavaScript", iconKey: "javascript" },
-      { name: "C++", iconKey: "cpp" },
+      { name: "C / C++", iconKey: "cpp" },
+      { name: "HTML", iconKey: "html" },
+      { name: "CSS", iconKey: "css" },
     ],
     order: 0,
   },
   {
-    title: "Frontend",
+    title: "Frameworks",
     categoryIconKey: "Monitor",
     color: "#60A5FA",
     gradientFrom: "#60A5FA",
     gradientTo: "#A78BFA",
     gradientColor: "#60A5FA",
-    span: "col-span-3 lg:col-span-1",
+    span: "col-span-1",
     skills: [
-      { name: "React", iconKey: "react" },
-      { name: "Next.js", iconKey: "nextjs" },
-      { name: "Tailwind CSS", iconKey: "tailwindcss" },
-      { name: "ShadCN", iconKey: "shadcn" },
+      { name: "PHP", iconKey: "php" },
+      { name: "Laravel", iconKey: "laravel" },
+      { name: "Flutter", iconKey: "flutter" },
     ],
     order: 1,
   },
   {
-    title: "Backend",
-    categoryIconKey: "Server",
+    title: "Tools",
+    categoryIconKey: "Database",
     color: "#34D399",
     gradientFrom: "#34D399",
     gradientTo: "#FBBF24",
     gradientColor: "#34D399",
-    span: "col-span-3 lg:col-span-1",
+    span: "col-span-1",
     skills: [
-      { name: "Node.js", iconKey: "nodejs" },
-      { name: "Express", iconKey: "express" },
-      { name: "REST API", iconKey: "restapi" },
+      { name: "Git", iconKey: "git" },
+      { name: "GitHub", iconKey: "github" },
+      { name: "Postman", iconKey: "postman" },
     ],
     order: 2,
-  },
-  {
-    title: "Database",
-    categoryIconKey: "Database",
-    color: "#A78BFA",
-    gradientFrom: "#A78BFA",
-    gradientTo: "#FB923C",
-    gradientColor: "#A78BFA",
-    span: "col-span-3 lg:col-span-1",
-    skills: [
-      { name: "PostgreSQL", iconKey: "postgresql" },
-      { name: "MongoDB", iconKey: "mongodb" },
-      { name: "Redis", iconKey: "redis" },
-      { name: "Prisma", iconKey: "prisma" },
-    ],
-    order: 3,
-  },
-  {
-    title: "Others",
-    categoryIconKey: "Wrench",
-    color: "#FB923C",
-    gradientFrom: "#FB923C",
-    gradientTo: "#F472B6",
-    gradientColor: "#FB923C",
-    span: "col-span-3 lg:col-span-1",
-    skills: [{ name: "GitHub", iconKey: "github" }],
-    order: 4,
   },
 ];
 

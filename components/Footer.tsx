@@ -43,11 +43,11 @@ export default function Footer({
           {/* Left — Branding */}
           <div className="max-w-xs space-y-3">
             <h3 className="text-lg font-bold tracking-tight text-white">
-              Ayush Kumar Gupta
+              Kim Sovannrath
             </h3>
             <p className="text-sm leading-relaxed text-neutral-500">
-              Full-stack developer who turns ideas into fast, polished
-              products — one clean commit at a time.
+              Web developer intern who enjoys solving problems and learning
+              new things through code.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export default function Footer({
         {/* Bottom bar */}
         <div className="mt-10 border-t border-white/6 pt-6 text-center">
           <p className="text-xs text-neutral-600">
-            &copy; {new Date().getFullYear()} Ayush Kumar Gupta. Built with
+            &copy; {new Date().getFullYear()} Kim Sovannrath. Built with
             Next.js, Tailwind CSS &amp; a lot of ☕
           </p>
         </div>

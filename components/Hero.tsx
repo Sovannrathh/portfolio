@@ -15,8 +15,8 @@ interface HeroData {
 
 export default function Hero({ data }: { data?: HeroData }) {
   const greeting = data?.greeting || "Hey, I'm";
-  const name = data?.name || "Ayush";
-  const tagline = data?.tagline || "Full-stack developer who turns ideas into fast, polished products\u00A0\u2014 one clean commit at a time.";
+  const name = data?.name || "Kim Sovannrath";
+  const tagline = data?.tagline || "Web developer intern who enjoys solving problems and learning new things through code\u00A0\u2014 from Laravel back ends to Flutter apps.";
   const splineUrl = data?.splineUrl || "https://prod.spline.design/AeryvEqWxr2qjINc/scene.splinecode";
   const isDesktop = useMediaQuery("(min-width: 768px)");
 

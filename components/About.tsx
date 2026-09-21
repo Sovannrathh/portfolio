@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import Image from "next/image";
 import { OrbitingCircles } from "@/components/ui/orbiting-circles";
 import { Monitor, Server, Layers, Network, Bot } from "lucide-react";
 
@@ -37,8 +36,8 @@ interface AboutData {
 export default function About({ data }: { data?: AboutData }) {
   const heading = data?.heading || "Who I am & What I offer";
   const paragraphs = data?.paragraphs || [
-    "I'm Ayush Kumar Gupta \u2014 a full-stack developer with a sharp eye for clean architecture and a deep love for solving hard problems. From crafting intuitive UIs to designing scalable backends, I build products that are fast, reliable, and a joy to use.",
-    "Competitive programmer at heart, builder by habit \u2014 I thrive at the intersection of performance, design, and developer experience.",
+    "I'm Kim Sovannrath \u2014 a curious and enthusiastic web developer intern who loves solving problems and learning new things through coding. I work well in teams where I can learn from others and share ideas, and I'm always ready for feedback that helps me improve.",
+    "Currently studying Computer Science with a specialization in Software Engineering at CADT, I'm aiming toward designing, maintaining, and developing software systems \u2014 with hands-on experience across Laravel back ends and Flutter mobile apps.",
   ];
 
   return (
@@ -55,13 +54,9 @@ export default function About({ data }: { data?: AboutData }) {
           >
             {/* Center avatar */}
             <div className="relative z-10 flex h-32 w-32 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/5 shadow-2xl shadow-white/5 backdrop-blur-sm sm:h-32 sm:w-32">
-              <Image
-                src="https://ik.imagekit.io/lmpthl5suv/1774446176731.png?updatedAt=1774456690946"
-                alt="Ayush Kumar Gupta"
-                width={128}
-                height={128}
-                className="h-full w-full rounded-full object-cover crop-center"
-              />
+              <span className="text-3xl font-bold tracking-tight text-neutral-300">
+                KS
+              </span>
             </div>
 
             {/* Inner orbit */}
